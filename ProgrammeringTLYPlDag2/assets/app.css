@@ -1,0 +1,78 @@
+/* app.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d71a20; /* Red background */
+    color: #fff; /* White text */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 20px auto;
+    background-color: #ff1f1f; /* Red container background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container h2 {
+    color: #fff; /* White title text */
+    text-align: center;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+select, input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #fff; /* White border */
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff1f1f; /* Red button background */
+    color: #fff; /* White button text */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #b51a1a; /* Darker red on hover */
+}
+
+.result {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff; /* White result background */
+    border: 1px solid #ff1f1f; /* Red border */
+    border-radius: 5px;
+    color: black; /* Set the color to black */
+}
+
+#additionalNumbers,
+#mainNumbers {
+    font-weight: bold; /* Make the text bold */
+}
+
+/* Styling for main and additional numbers containers */
+#mainNumbersContainer, #additionalNumbersContainer {
+    background-color: #ffffff; /* Grey background */
+    color: #000; /* Black text */
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}

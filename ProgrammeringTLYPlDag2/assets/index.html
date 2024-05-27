@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lottery Game</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Lottery Game</h2>
+        <form id="lotteryForm">
+            <label for="gameSelect">Choose a lottery game:</label>
+            <select id="gameSelect">
+                <option value="Lotto">Lotto</option>
+                <option value="EuroJackpot">EuroJackpot</option>
+                <option value="VikingLotto">VikingLotto</option>
+                <option value="Keno">Keno</option>
+            </select>
+
+            <label for="numSelect">How many numbers do you want to pick:</label>
+            <input type="number" id="numSelect" min="1" max="10" value="1">
+
+            <label for="lNumSelect">How many L numbers do you want to pick:</label>
+            <input type="number" id="lNumSelect" min="0" max="10" value="0">
+
+            <label for="rowSelect">How many rows do you want to play:</label>
+            <input type="number" id="rowSelect" min="1" max="10" value="1">
+
+            <button type="button" id="generateButton">Generate Numbers</button>
+        </form>
+        <div class="numbers-container" id="mainNumbersContainer"></div>
+        <div class="numbers-container" id="additionalNumbersContainer"></div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
